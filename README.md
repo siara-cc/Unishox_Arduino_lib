@@ -9,8 +9,8 @@ To find out how Unishox works, read [this article](https://github.com/siara-cc/U
 The following API can be used for compressing and decompressing strings or files:
 
 ```
-long unishox_compress_simple(const char *in, long len, char *out);
-long unishox_decompress_simple(const char *in, long len, char *out);
+int unishox_compress_simple(const char *in, long len, char *out);
+int unishox_decompress_simple(const char *in, long len, char *out);
 ```
 
 See example provided for demonstration of usage or see the documentation at https://github.com/siara-cc/Unishox for further details.
